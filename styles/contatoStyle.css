@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    
+    object-position: center;
+    object-fit: cover;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.header {
+    background-color: red;
+    overflow: auto;
+    margin: auto;
+    padding: 6px;
+    font-size: 18px;
+    border-top: 3px solid rgb(245, 122, 122);
+    border-bottom: 3px solid rgb(245, 122, 122);
+}
+
+.home {
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding: 5px;
+    border: 0px solid red;
+    border-radius: 7px;
+}
+
+.home:hover {
+    background-color: white;
+    color: black;
+    border: 0px solid red;
+    border-radius: 7px;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-list {
+    color: white;
+    border: 0px solid red;
+    border-radius: 7px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.menu-list:hover {
+    background-color: white;
+    color: black;
+    border: 0px solid red;
+    border-radius: 7px;
+}
+
+#home {
+    display: none;
+}
+
+.corpo {
+    position: relative;
+}
+
+.containerBody {
+    background-color: rgba(128, 128, 128, 0.356);
+    font-family: 'Roboto', cursive;
+    width: 99%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.containerContact {
+    color: white;
+    font-size: 15pt;
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact {
+    margin-top: 70px;
+}
+
+.contact1 {
+    margin-top: 70px;
+    width: 202px;
+}
+
+.contact2 {
+    margin-top: 70px;
+}
+
+.img {
+    width: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.body {
+    margin: auto;
+    width: 96%;
+    background-color: rgba(255, 0, 0, 0.664);
+    height: 1000px;
+}
+
+.title {
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40pt;
+}
+
+.container-local {
+    display: flex;
+    width: 60%;
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    transform: translate(-65%, -50%);
+}
+
+#local {
+    float: left;
+}
+
+#horario {
+    float: right;
+    margin-left: 40px;
+}
+
+#localiza {
+    margin-top: 20px;
+    width: 522px;
+    height: 387px;
+}
+
+#horario-list {
+    list-style: none;
+    margin-top: 20px;
+    font-size: 12pt;
+}
+
+.footer {
+    padding: 15px;
+    background-color: red;
+    color: white;
+    width: 97.8%;
+    height: 140px;
+    overflow: hidden;
+}
+
+.endereço {
+    float: left;
+    color: white;
+    margin-top: 30px;
+}
+
+.redes {
+    float: right;
+    margin-top: 30px;
+}
+
+.sociais {
+    float: left;
+    width: 26px;
+}
+
+.whatsinsta {
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+    padding: 1px;
+    font-size: 15pt;
+    list-style: none;
+    float: none;
+    margin-top: 3px;
+}
+
+.whatsinsta:hover {
+    color: black;
+    background-color: white;
+}
+
+.mycontact {
+    text-decoration: none;
+    color: white;
+}
+
+.mycontact:hover {
+    color: black;
+}
+
+@media screen and (max-width: 500px) {
+    .banner {
+        height: 150px;
+    }
+
+    img {
+        height: 100%;
+    }
+
+    .body {
+        height: 1300px;
+    }
+
+    .header {
+        display: flex;
+        float: none;
+        margin: none;
+        justify-content: space-around;
+    }
+
+    .menu-list {
+        font-size: 12pt;
+        margin-right: 10px;
+    }
+
+    .home {
+        display: none;
+    }
+
+    .containerContact {
+        margin-top: 0px;
+        justify-content: center;
+        align-items: center;
+        height: 630px;
+    }
+
+    .containerContact img  {
+      width: 40px;
+      height: 40px;
+    }
+
+    .contact {
+        margin-top: 10px;
+        height: 200px;
+    }
+    
+    .contact1 {
+        margin-top: 10px; 
+        height: 200px;
+    }
+    
+    .contact2 {
+        margin-top: 10px; 
+        height: 200px;
+    }
+
+    .title {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 35pt;
+    }
+
+    .container-local {
+        width: 90%;
+        display: block;
+        top: 80%;
+        left: 65%;
+    }
+
+    #localiza {
+        width: 98%;
+        height: 100%;
+    }
+
+    #horario {
+        float: none;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    
+    .footer {
+        width: 92.4%;
+        height: 300px;
+    }
+
+    .endereço {
+        float: none;
+        width: 220px;
+        margin: auto;
+    }
+    
+    .redes {
+        float: none;
+        width: 220px;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .copy{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .banner {
+        height: 150px;
+    }
+
+    img {
+        height: 100%;
+    }
+
+    .menu-list {
+        margin-right: 7px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .footer {
+        width: 92%;
+    }
+
+    .menu-list {
+        margin-right: 4px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .banner {
+        height: 150px;
+    }
+
+    .title {
+        font-size: 30pt;
+    }
+
+    .container-local {
+        top: 77%;
+    }
+
+    .containerContact {
+        margin-top: 30px;
+        left: 50%;
+    }
+
+    img {
+        height: 100%;
+    }
+
+    .menu-list {
+        margin-right: 0px;
+    }
+
+    .footer {
+        font-size: 10pt;
+        width: 91.2%;
+    }
+    
+    .redes {
+        font-size: 10pt;
+    }
+
+    .whatsinsta {
+        font-size: 10pt;
+    }
+}
+
+@media screen and (max-width: 342px) {
+    .menu-list {
+        font-size: 10pt;
+    }
+
+    .footer {
+        width: 91.2%;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    .redes {
+        font-size: 10pt;
+        margin-top: 0px;
+    }
+
+    .whatsinsta {
+        font-size: 10pt;
+    }
+}
+
+/* HEADER E MENU */
