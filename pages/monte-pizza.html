@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR ">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/monteStyle.css">
+    <link rel="icon" type="image/png" href="/images/icon.png">
+    <title>Chili Peppers Pizzaria</title>
+</head>
+<body>
+
+    <div class="banner">
+        <a href="/index.html"><img src="/images/banner.png" alt="banner"></a> 
+     </div>
+
+     <div class="header">
+        <div class="home">
+           <a class="home" href="/index.html">Início</a> 
+        </div>
+        <ul class="menu">
+            <a class="links" href="/pages/pizzas.html"><li class="menu-list">Pizzas</li></a>
+            <a class="links" href="/pages/guirlandas.html"><li class="menu-list">Guirlandas</li></a>
+            <a class="links" href="/pages/bebidas.html"><li class="menu-list">Bebidas</li></a>
+            <a class="links" href="/pages/contato.html"><li class="menu-list">Sobre</li></a>
+        </ul>
+    </div>
+
+    <div class="corpo">
+        <div class="body">
+            <div class="background-catal">
+                <div class="header-catal">
+
+                </div>
+
+                <div class="check-wrapper">
+                    <div>
+                        <h1 style="text-align: center; margin-top: 20px;">Bem vindos ao monte sua pizza, aqui você poderá pedir sua pizza da maneira que desejar!</h1>
+                        <br>
+                        <hr>
+                    </div>
+                    <div id="principal" class="drink-section">
+                        <br>
+                        <h2>Selecione quantos sabores você deseja em sua pizza:</h2>
+                        <select class="selects" onchange="selectQuant(this.value)" name="quant-sabores" id="quant-sabores">
+                            <option value="none">Selecione</option>
+                            <option value="2">2 Sabores</option>
+                            <option value="3">3 Sabores</option>
+                        </select>
+                    </div>
+                    
+                    <div id="check-wrapper">
+                                    
+                    </div>
+
+                    <div id="corps">
+                       
+        <div id="clear">
+
+        </div>
+
+        <div id="card-wrapper" class="checkout-item">
+                                    
+        </div>
+
+        <div id="card-wrappe">
+
+        </div>  
+                    </div>
+                   
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+      <footer> 
+          <div class="endereço">
+              Endereço: Rua São José <br>
+              Número: 34 <br>
+              Bairro: COHAB <br>
+              CEP: 99999-999 <br>
+              Cidade:  São Paulo - SP
+          </div>
+
+          <div class="redes">
+              <p style="font-size: 15pt;">Contatos:</p>
+              <ul>
+                  <li class="whatsinsta"><img class="sociais" src="/images/whatsappicon.png"/> WhatsApp
+                  </li>
+                  <li class="whatsinsta"><img class="sociais" src="/images/instagramicon.png"/> Instagram
+                  </li>
+              </ul>
+          </div>
+          <div style="text-align: center;" class="copy">&copy;2021 Chili Peppers Pizzaria – Todos direitos reservados. <br> Desenvolvido por <strong><a class="mycontact" href="mailto:wesleyara.contato@gmail.com">Wesley Araújo</a></strong></div>
+      </footer>
+  </div>
+
+    <script src="/scripts/scriptMonte.js"></script>
+</body>
+</html>
