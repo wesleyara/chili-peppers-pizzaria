@@ -600,38 +600,38 @@ function selectPag(valor) {
     if (value2 === "none" && value3 === "none") {
       pagamento.innerHTML = `
             <br>
-            <h3>Essa é a nossa chave Pix: 05922250469 (CPF); Banco Santander, Maria Fabiana.</h3>
+            <h3>Essa é a nossa chave Pix: 99999999999 (CPF); Banco Santander, Chili Peppers.</h3>
             <p>Após fazer o Pix, tire um print do comprovante e envie ao terminar a compra pelo WhatsApp.</p>
             <br>
             <h2>Deseja finalizar o  pedido?</h2>
-            <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20sem%20borda%20e%20sem%20bebida.%20Pagamento%20em%20Pix." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+            <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20sem%20borda%20e%20sem%20bebida.%20Pagamento%20em%20Pix." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
             `;
     } else if (value3 === "none") {
       pagamento.innerHTML = `
             <br>
-            <h3>Essa é a nossa chave Pix: 05922250469 (CPF); Banco Santander, Maria Fabiana.</h3>
+            <h3>Essa é a nossa chave Pix: 99999999999 (CPF); Banco Santander, Chili Peppers.</h3>
             <p>Após fazer o Pix, tire um print do comprovante e envie ao terminar a compra pelo WhatsApp.</p>
             <br>
             <h2>Deseja finalizar o  pedido?</h2>
-            <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20um(a)%20${drinkPizDoisSelect}%20e%20sem%20borda.%20Pagamento%20em%20Pix." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+            <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20um(a)%20${drinkPizDoisSelect}%20e%20sem%20borda.%20Pagamento%20em%20Pix." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
             `;
     } else if (value2 === "none") {
       pagamento.innerHTML = `
             <br>
-            <h3>Essa é a nossa chave Pix: 05922250469 (CPF); Banco Santander, Maria Fabiana.</h3>
+            <h3>Essa é a nossa chave Pix: 999999999999 (CPF); Banco Santander, Chili Peppers.</h3>
             <p>Após fazer o Pix, tire um print do comprovante e envie ao terminar a compra pelo WhatsApp.</p>
             <br>
             <h2>Deseja finalizar o  pedido?</h2>
-            <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20borda%20de%20${bordPizDoisSelect}%20e%20sem%20bebida.%20Pagamento%20em%20Pix." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+            <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20borda%20de%20${bordPizDoisSelect}%20e%20sem%20bebida.%20Pagamento%20em%20Pix." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
             `;
     } else {
       pagamento.innerHTML = `
             <br>
-            <h3>Essa é a nossa chave Pix: 05922250469 (CPF); Banco Santander, Maria Fabiana.</h3>
+            <h3>Essa é a nossa chave Pix: 999999999999 (CPF); Banco Santander, Chili Peppers.</h3>
             <p>Após fazer o Pix, tire um print do comprovante e envie ao terminar a compra pelo WhatsApp.</p>
             <br>
             <h2>Deseja finalizar o  pedido?</h2>
-            <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20borda%20de%20${bordPizDoisSelect}%20e%20com%20um(a)%20${drinkPizDoisSelect}.%20Pagamento%20em%20Pix." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+            <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20borda%20de%20${bordPizDoisSelect}%20e%20com%20um(a)%20${drinkPizDoisSelect}.%20Pagamento%20em%20Pix." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
             `;
     }
   }
@@ -653,7 +653,7 @@ function creditoD() {
       .toFixed(2)
       .replace(".", ",")}.
     <h2>Deseja finalizar o  pedido?</h2>
-    <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20sem%20borda%20e%20sem%20bebida.%20Pagamento%20em%20cartão%20de%20crédito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+    <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20sem%20borda%20e%20sem%20bebida.%20Pagamento%20em%20cartão%20de%20crédito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
     `;
   } else if (value3 === "none") {
     let finalValue = result + drinkValue + 2;
@@ -662,7 +662,7 @@ function creditoD() {
       .toFixed(2)
       .replace(".", ",")}.
     <h2>Deseja finalizar o  pedido?</h2>
-    <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20um(a)%20${drinkPizDoisSelect}%20e%20sem%20borda.%20Pagamento%20em%20cartão%20de%20crédito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+    <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20um(a)%20${drinkPizDoisSelect}%20e%20sem%20borda.%20Pagamento%20em%20cartão%20de%20crédito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
     `;
   } else if (value2 === "none") {
     let finalValue = result + bordValue + 2;
@@ -671,7 +671,7 @@ function creditoD() {
       .toFixed(2)
       .replace(".", ",")}.
     <h2>Deseja finalizar o  pedido?</h2>
-    <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20borda%20de%20${bordPizDoisSelect}%20e%20sem%20bebida.%20Pagamento%20em%20cartão%20de%20crédito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+    <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20borda%20de%20${bordPizDoisSelect}%20e%20sem%20bebida.%20Pagamento%20em%20cartão%20de%20crédito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
     `;
   } else {
     let finalValue = result + bordValue + drinkValue + 2;
@@ -680,7 +680,7 @@ function creditoD() {
       .toFixed(2)
       .replace(".", ",")}.
     <h2>Deseja finalizar o  pedido?</h2>
-    <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20borda%20de%20${bordPizDoisSelect}%20e%20com%20um(a)%20${drinkPizDoisSelect}.%20Pagamento%20em%20cartão%20de%20crédito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+    <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20borda%20de%20${bordPizDoisSelect}%20e%20com%20um(a)%20${drinkPizDoisSelect}.%20Pagamento%20em%20cartão%20de%20crédito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
     `;
   }
 }
@@ -697,22 +697,22 @@ function debitoD() {
   if (value2 === "none" && value3 === "none") {
     pag.innerHTML = `
                 <h2>Deseja finalizar o  pedido?</h2>
-                <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20sem%20borda%20e%20sem%20bebida.%20Pagamento%20em%20cartão%20de%20débito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+                <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20sem%20borda%20e%20sem%20bebida.%20Pagamento%20em%20cartão%20de%20débito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
                 `;
   } else if (value3 === "none") {
     pag.innerHTML = `
                 <h2>Deseja finalizar o  pedido?</h2>
-                <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20um(a)%20${drinkPizDoisSelect}%20e%20sem%20borda.%20Pagamento%20em%20cartão%20de%20débito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+                <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20um(a)%20${drinkPizDoisSelect}%20e%20sem%20borda.%20Pagamento%20em%20cartão%20de%20débito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
                 `;
   } else if (value2 === "none") {
     pag.innerHTML = `
                 <h2>Deseja finalizar o  pedido?</h2>
-                <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20borda%20de%20${bordPizDoisSelect}%20e%20sem%20bebida.%20Pagamento%20em%20cartão%20de%20débito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+                <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20borda%20de%20${bordPizDoisSelect}%20e%20sem%20bebida.%20Pagamento%20em%20cartão%20de%20débito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
                 `;
   } else {
     pag.innerHTML = `
                 <h2>Deseja finalizar o  pedido?</h2>
-                <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20borda%20de%20${bordPizDoisSelect}%20e%20com%20um(a)%20${drinkPizDoisSelect}.%20Pagamento%20em%20cartão%20de%20débito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+                <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20borda%20de%20${bordPizDoisSelect}%20e%20com%20um(a)%20${drinkPizDoisSelect}.%20Pagamento%20em%20cartão%20de%20débito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
                 `;
   }
 }
@@ -734,22 +734,22 @@ function finalizarPizzaDois() {
     if (value2 === "none" && value3 === "none") {
       pag.innerHTML = `
                 <h2>Deseja finalizar o  pedido?</h2>
-                <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20sem%20borda%20e%20sem%20bebida.%20Pagamento%20em%20dinheiro,%20troco%20para%20R$${trocos},00." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+                <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20sem%20borda%20e%20sem%20bebida.%20Pagamento%20em%20dinheiro,%20troco%20para%20R$${trocos},00." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
                 `;
     } else if (value3 === "none") {
       pag.innerHTML = `
                 <h2>Deseja finalizar o  pedido?</h2>
-                <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20um(a)%20${drinkPizDoisSelect}%20e%20sem%20borda.%20Pagamento%20em%20dinheiro,%20troco%20para%20R$${trocos},00." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+                <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20um(a)%20${drinkPizDoisSelect}%20e%20sem%20borda.%20Pagamento%20em%20dinheiro,%20troco%20para%20R$${trocos},00." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
                 `;
     } else if (value2 === "none") {
       pag.innerHTML = `
                 <h2>Deseja finalizar o  pedido?</h2>
-                <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20borda%20de%20${bordPizDoisSelect}%20e%20sem%20bebida.%20Pagamento%20em%20dinheiro,%20troco%20para%20R$${trocos},00." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+                <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20borda%20de%20${bordPizDoisSelect}%20e%20sem%20bebida.%20Pagamento%20em%20dinheiro,%20troco%20para%20R$${trocos},00." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
                 `;
     } else {
       pag.innerHTML = `
                 <h2>Deseja finalizar o  pedido?</h2>
-                <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20borda%20de%20${bordPizDoisSelect}%20e%20com%20um(a)%20${drinkPizDoisSelect}.%20Pagamento%20em%20dinheiro,%20troco%20para%20R$${trocos},00." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+                <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%202%20sabores,%20metade%20${metade01}%20e%20metade%20${metade02},%20tamanho%20${sizePizzaDois},%20com%20borda%20de%20${bordPizDoisSelect}%20e%20com%20um(a)%20${drinkPizDoisSelect}.%20Pagamento%20em%20dinheiro,%20troco%20para%20R$${trocos},00." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
                 `;
     }
   }
@@ -1130,38 +1130,38 @@ function selectPagT(valor) {
     if (value2 === "none" && value3 === "none") {
       pagamento.innerHTML = `
           <br>
-          <h3>Essa é a nossa chave Pix: 05922250469 (CPF); Banco Santander, Maria Fabiana.</h3>
+          <h3>Essa é a nossa chave Pix: 999999999999 (CPF); Banco Santander, Chili Peppers.</h3>
           <p>Após fazer o Pix, tire um print do comprovante e envie ao terminar a compra pelo WhatsApp.</p>
           <br>
           <h2>Deseja finalizar o  pedido?</h2>
-          <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20sem%20borda%20e%20sem%20bebida.%20Pagamento%20em%20Pix." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+          <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20sem%20borda%20e%20sem%20bebida.%20Pagamento%20em%20Pix." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
           `;
     } else if (value3 === "none") {
       pagamento.innerHTML = `
           <br>
-          <h3>Essa é a nossa chave Pix: 05922250469 (CPF); Banco Santander, Maria Fabiana.</h3>
+          <h3>Essa é a nossa chave Pix: 99999999999 (CPF); Banco Santander, Chili Peppers.</h3>
           <p>Após fazer o Pix, tire um print do comprovante e envie ao terminar a compra pelo WhatsApp.</p>
           <br>
           <h2>Deseja finalizar o  pedido?</h2>
-          <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20um(a)%20${drinkPizTresSelect}%20e%20sem%20borda.%20Pagamento%20em%20Pix." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+          <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20um(a)%20${drinkPizTresSelect}%20e%20sem%20borda.%20Pagamento%20em%20Pix." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
           `;
     } else if (value2 === "none") {
       pagamento.innerHTML = `
           <br>
-          <h3>Essa é a nossa chave Pix: 05922250469 (CPF); Banco Santander, Maria Fabiana.</h3>
+          <h3>Essa é a nossa chave Pix: 9999999999999 (CPF); Banco Santander, Chili Peppers.</h3>
           <p>Após fazer o Pix, tire um print do comprovante e envie ao terminar a compra pelo WhatsApp.</p>
           <br>
           <h2>Deseja finalizar o  pedido?</h2>
-          <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20borda%20de%20${bordPizTresSelect}%20e%20sem%20bebida.%20Pagamento%20em%20Pix." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+          <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20borda%20de%20${bordPizTresSelect}%20e%20sem%20bebida.%20Pagamento%20em%20Pix." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
           `;
     } else {
       pagamento.innerHTML = `
           <br>
-          <h3>Essa é a nossa chave Pix: 05922250469 (CPF); Banco Santander, Maria Fabiana.</h3>
+          <h3>Essa é a nossa chave Pix: 999999999999 (CPF); Banco Santander, Chili Peppers.</h3>
           <p>Após fazer o Pix, tire um print do comprovante e envie ao terminar a compra pelo WhatsApp.</p>
           <br>
           <h2>Deseja finalizar o  pedido?</h2>
-          <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaDois},%20com%20borda%20de%20${bordPizTresSelect}%20e%20com%20um(a)%20${drinkPizTresSelect}.%20Pagamento%20em%20Pix." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+          <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaDois},%20com%20borda%20de%20${bordPizTresSelect}%20e%20com%20um(a)%20${drinkPizTresSelect}.%20Pagamento%20em%20Pix." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
           `;
     }
   }
@@ -1183,7 +1183,7 @@ function creditoT() {
       .toFixed(2)
       .replace(".", ",")}.
     <h2>Deseja finalizar o  pedido?</h2>
-    <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20sem%20borda%20e%20sem%20bebida.%20Pagamento%20em%20cartão%20de%20crédito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+    <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20sem%20borda%20e%20sem%20bebida.%20Pagamento%20em%20cartão%20de%20crédito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
     `;
   } else if (value3 === "none") {
     let finalValue = resultado + drinkValueT + 2;
@@ -1192,7 +1192,7 @@ function creditoT() {
       .toFixed(2)
       .replace(".", ",")}.
     <h2>Deseja finalizar o  pedido?</h2>
-    <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20um(a)%20${drinkPizTresSelect}%20e%20sem%20borda.%20Pagamento%20em%20cartão%20de%20crédito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+    <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20um(a)%20${drinkPizTresSelect}%20e%20sem%20borda.%20Pagamento%20em%20cartão%20de%20crédito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
     `;
   } else if (value2 === "none") {
     let finalValue = resultado + bordValueT + 2;
@@ -1201,7 +1201,7 @@ function creditoT() {
       .toFixed(2)
       .replace(".", ",")}.
     <h2>Deseja finalizar o  pedido?</h2>
-    <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20borda%20de%20${bordPizTresSelect}%20e%20sem%20bebida.%20Pagamento%20em%20cartão%20de%20crédito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+    <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20borda%20de%20${bordPizTresSelect}%20e%20sem%20bebida.%20Pagamento%20em%20cartão%20de%20crédito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
     `;
   } else {
     let finalValue = resultado + bordValueT + drinkValueT + 2;
@@ -1210,7 +1210,7 @@ function creditoT() {
       .toFixed(2)
       .replace(".", ",")}.
     <h2>Deseja finalizar o  pedido?</h2>
-    <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20borda%20de%20${bordPizTresSelect}%20e%20com%20um(a)%20${drinkPizTresSelect}.%20Pagamento%20em%20cartão%20de%20crédito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+    <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20borda%20de%20${bordPizTresSelect}%20e%20com%20um(a)%20${drinkPizTresSelect}.%20Pagamento%20em%20cartão%20de%20crédito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
     `;
   }
 }
@@ -1227,22 +1227,22 @@ function debitoT() {
   if (value2 === "none" && value3 === "none") {
     pag.innerHTML = `
     <h2>Deseja finalizar o  pedido?</h2>
-    <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20sem%20borda%20e%20sem%20bebida.%20Pagamento%20em%20cartão%20de%20débito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+    <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20sem%20borda%20e%20sem%20bebida.%20Pagamento%20em%20cartão%20de%20débito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
     `;
   } else if (value3 === "none") {
     pag.innerHTML = `
     <h2>Deseja finalizar o  pedido?</h2>
-    <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20um(a)%20${drinkPizTresSelect}%20e%20sem%20borda.%20Pagamento%20em%20cartão%20de%20débito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+    <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20um(a)%20${drinkPizTresSelect}%20e%20sem%20borda.%20Pagamento%20em%20cartão%20de%20débito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
     `;
   } else if (value2 === "none") {
     pag.innerHTML = `
     <h2>Deseja finalizar o  pedido?</h2>
-    <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20borda%20de%20${bordPizTresSelect}%20e%20sem%20bebida.%20Pagamento%20em%20cartão%20de%20débito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+    <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20borda%20de%20${bordPizTresSelect}%20e%20sem%20bebida.%20Pagamento%20em%20cartão%20de%20débito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
     `;
   } else {
     pag.innerHTML = `
     <h2>Deseja finalizar o  pedido?</h2>
-    <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20borda%20de%20${bordPizTresSelect}%20e%20com%20um(a)%20${drinkPizTresSelect}.%20Pagamento%20em%20cartão%20de%20débito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+    <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20borda%20de%20${bordPizTresSelect}%20e%20com%20um(a)%20${drinkPizTresSelect}.%20Pagamento%20em%20cartão%20de%20débito." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
     `;
   }
 }
@@ -1264,22 +1264,22 @@ function finalizarPizzaTres() {
     if (value2 === "none" && value3 === "none") {
       pag.innerHTML = `
               <h2>Deseja finalizar o  pedido?</h2>
-              <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20sem%20borda%20e%20sem%20bebida.%20Pagamento%20em%20dinheiro,%20troco%20para%20R$${trocos},00." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+              <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20sem%20borda%20e%20sem%20bebida.%20Pagamento%20em%20dinheiro,%20troco%20para%20R$${trocos},00." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
               `;
     } else if (value3 === "none") {
       pag.innerHTML = `
               <h2>Deseja finalizar o  pedido?</h2>
-              <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20um(a)%20${drinkPizTresSelect}%20e%20sem%20borda.%20Pagamento%20em%20dinheiro,%20troco%20para%20R$${trocos},00." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+              <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20um(a)%20${drinkPizTresSelect}%20e%20sem%20borda.%20Pagamento%20em%20dinheiro,%20troco%20para%20R$${trocos},00." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
               `;
     } else if (value2 === "none") {
       pag.innerHTML = `
               <h2>Deseja finalizar o  pedido?</h2>
-              <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20borda%20de%20${bordPizTresSelect}%20e%20sem%20bebida.%20Pagamento%20em%20dinheiro,%20troco%20para%20R$${trocos},00." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+              <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20borda%20de%20${bordPizTresSelect}%20e%20sem%20bebida.%20Pagamento%20em%20dinheiro,%20troco%20para%20R$${trocos},00." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
               `;
     } else {
       pag.innerHTML = `
               <h2>Deseja finalizar o  pedido?</h2>
-              <a href="https://api.whatsapp.com/send/?phone=558189298539&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20borda%20de%20${bordPizTresSelect}%20e%20com%20um(a)%20${drinkPizTresSelect}.%20Pagamento%20em%20dinheiro,%20troco%20para%20R$${trocos},00." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
+              <a href="https://api.whatsapp.com/send/?phone=559999999999&text=Pizza%20com%203%20sabores,%20${metade03},%20${metade04}%20e%20${metade05},%20tamanho%20${sizePizzaTres},%20com%20borda%20de%20${bordPizTresSelect}%20e%20com%20um(a)%20${drinkPizTresSelect}.%20Pagamento%20em%20dinheiro,%20troco%20para%20R$${trocos},00." target="_blank"><input type="button" id='compr' class="search" value="Comprar"></a>
               `;
     }
   }
