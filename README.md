@@ -1,5 +1,9 @@
 # Chili Peppers Pizzaria
 
+![image](https://user-images.githubusercontent.com/89321125/153483045-be0f18fe-44e0-4229-a585-d08b1a411e02.png)
+
+Link do site: <a href="https://chili-peppers-pizzaria.netlify.app/">Chili Peppers Pizzaria</a>
+
 ### Contatos e redes sociais:
 <div style="display: inline_block">
   <a href="mailto:wesleyara.contato@gmail.com"><img alt="Wesley-GMAIL" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
